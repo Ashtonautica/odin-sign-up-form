@@ -78,6 +78,7 @@ em {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
+	max-width: 600px;
 }
 
 .logo-background {
@@ -118,19 +119,23 @@ em {
 }
 
 .message-container {
-	margin-bottom: 8vh;
+	margin-bottom: 5vh;
 	font-size: 1.3rem;
 	font-weight: 600;
+	line-height: 1.5rem;
 }
 
 .form-container {
 	display: flex;
 	flex-direction: column;
 	background-color: white;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, .1);
+	box-sizing: border-box;
+	padding: 3vh 14vw 3vh 3vw;
 }
 
 .form-container p {
-	padding: 2vh 0;
+	padding-bottom: 3vh;
 	font-size: 1.4rem;
 }
 
@@ -148,11 +153,35 @@ form div {
 
 label {
 	font-size: .7rem;
+	padding-bottom: 2px;
 }
 
-input {
-	padding: 3px 6px;
+.form-container input {
+	padding: 5px 10px;
 	font-size: .9rem;
 	border: 1px solid #E5E7EB;
+	border-radius: 5px;
+}
+
+.form-container input:focus {
+	outline: none;
+	border: 1px solid blue;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
+}
+
+.submit-container input {
+	margin: 4vh 0;
+	padding: 1.5vh 4vw;
+	background-color: #596D48;
+	font-family: inherit;
+	font-weight: 600;
+	color: white;
+	border-radius: 10px;
+	border: 0;
+}
+
+.submit-container a {
+	color: #596D48;
+	text-decoration: none;
 }
 
