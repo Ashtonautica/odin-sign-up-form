@@ -103,6 +103,10 @@ body {
 	color: white;
 }
 
+a {
+	color: inherit;
+}
+
 .form-container {
 	flex: 5 0 0;
 }
