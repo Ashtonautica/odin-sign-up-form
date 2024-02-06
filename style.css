@@ -65,7 +65,7 @@ body {
 }
 
 .image-container {
-	flex: 3 0 0;
+	flex: 1 0 0;
 
 	background: center/cover url(./background.jpg);
 	color: white;
@@ -109,9 +109,19 @@ a {
 }
 
 .main-container {
-	flex: 5 0 0;
+	flex: 1.2 0 0;
+	padding: 0 14vw 0 3vw;
 
 	background-color: rgba(0, 0, 0, .05);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.message-container {
+	font-size: 1.3rem;
+	font-weight: 600;
 }
 
 .form-container {
