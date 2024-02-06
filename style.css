@@ -58,9 +58,7 @@ table {
 body {
 	width: 100vw;
 	height: 100vh;
-
 	font-family: "Roboto";
-
 	display: flex;
 }
 
@@ -74,10 +72,8 @@ em {
 
 .image-container {
 	flex: 1 0 0;
-
 	background: center/cover url(./background.jpg);
 	color: white;
-
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -89,9 +85,7 @@ em {
 	width: 100%;
 	margin-top: 20vh;
 	padding: 10px;
-
 	background-color: rgba(0, 0, 0, .5);
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -108,15 +102,12 @@ em {
 
 .image-container footer {
 	padding: 10px;
-
 	font-size: .8rem;
 }
 
 .main-container {
 	flex: 1.7 0 0;
-
 	background-color: rgba(0, 0, 0, .05);
-
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -128,7 +119,6 @@ em {
 
 .message-container {
 	margin-bottom: 8vh;
-
 	font-size: 1.3rem;
 	font-weight: 600;
 }
@@ -136,13 +126,11 @@ em {
 .form-container {
 	display: flex;
 	flex-direction: column;
-
 	background-color: white;
 }
 
 .form-container p {
 	padding: 2vh 0;
-
 	font-size: 1.4rem;
 }
 
@@ -154,7 +142,6 @@ form {
 
 form div {
 	width: 40%;
-
 	display: flex;
 	flex-direction: column;
 }
@@ -165,7 +152,7 @@ label {
 
 input {
 	padding: 3px 6px;
-
 	font-size: .9rem;
+	border: 1px solid #E5E7EB;
 }
 
