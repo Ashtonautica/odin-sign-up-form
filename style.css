@@ -64,9 +64,29 @@ body {
 
 .image-container {
 	background: center/cover url(./background.jpg);
-	flex: 3 0 auto;
+	flex: 3 0 0;
+}
+
+.logo-background {
+	background-color: rgba(0, 0, 0, .5);
+	margin-top: 20vh;
+	padding: 10px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-background img {
+	height: 120px;
+}
+
+.logo-background h1 {
+	font-family: "NorseBold";
+	font-size: 6rem;
+	color: white;
 }
 
 .form-container {
-	flex: 5 0 auto;
+	flex: 5 0 0;
 }
