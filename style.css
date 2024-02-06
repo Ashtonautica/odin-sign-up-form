@@ -140,6 +140,7 @@ em {
 form {
 	display: flex;
 	flex-wrap: wrap;
+	gap: 2vh 5vw;
 }
 
 form div {
