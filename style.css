@@ -59,12 +59,16 @@ body {
 	width: 100vw;
 	height: 100vh;
 
+	font-family: "Roboto";
+
 	display: flex;
 }
 
 .image-container {
-	background: center/cover url(./background.jpg);
 	flex: 3 0 0;
+
+	background: center/cover url(./background.jpg);
+	color: white;
 
 	display: flex;
 	flex-direction: column;
@@ -92,15 +96,12 @@ body {
 .logo-background h1 {
 	font-family: "NorseBold";
 	font-size: 6rem;
-	color: white;
 }
 
 .image-container footer {
 	padding: 10px;
 
-	font-family: "Roboto";
 	font-size: .8rem;
-	color: white;
 }
 
 a {
