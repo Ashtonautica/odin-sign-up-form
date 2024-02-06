@@ -153,6 +153,7 @@ form div {
 
 label {
 	font-size: .7rem;
+	letter-spacing: .1rem;
 	padding-bottom: 2px;
 }
 
@@ -161,6 +162,10 @@ label {
 	font-size: .9rem;
 	border: 1px solid #E5E7EB;
 	border-radius: 5px;
+}
+
+.form-container input:user-invalid {
+	border: 1px solid red;
 }
 
 .form-container input:focus {
@@ -175,6 +180,7 @@ label {
 	background-color: #596D48;
 	font-family: inherit;
 	font-weight: 600;
+	font-size: 1rem;
 	color: white;
 	border-radius: 10px;
 	border: 0;
