@@ -64,6 +64,14 @@ body {
 	display: flex;
 }
 
+a {
+	color: inherit;
+}
+
+em {
+	font-style: italic;
+}
+
 .image-container {
 	flex: 1 0 0;
 
@@ -104,10 +112,6 @@ body {
 	font-size: .8rem;
 }
 
-a {
-	color: inherit;
-}
-
 .main-container {
 	flex: 1.2 0 0;
 	padding: 0 14vw 0 3vw;
@@ -120,6 +124,8 @@ a {
 }
 
 .message-container {
+	margin-bottom: 8vh;
+
 	font-size: 1.3rem;
 	font-weight: 600;
 }
